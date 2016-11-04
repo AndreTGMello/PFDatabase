@@ -1,0 +1,91 @@
+
+ff: parsing domain file
+domain 'DEPOT' defined
+ ... done.
+ff: parsing problem file
+problem 'DEPOTPROB6178' defined
+ ... done.
+
+
+
+Cueing down from goal distance:   34 into depth [1]
+                                  33            [1]
+                                  32            [1]
+                                  31            [1]
+                                  30            [1]
+                                  29            [1]
+                                  28            [1]
+                                  27            [1]
+                                  26            [1]
+                                  25            [1]
+                                  24            [1]
+                                  23            [1]
+                                  22            [1]
+                                  21            [1]
+                                  20            [1]
+                                  19            [1]
+                                  18            [1]
+                                  17            [1]
+                                  16            [1]
+                                  15            [1]
+                                  14            [1]
+                                  13            [1]
+                                  12            [1]
+                                  11            [1]
+                                  10            [1]
+                                   9            [1]
+                                   8            [1]
+                                   7            [1]
+                                   6            [1]
+                                   5            [1]
+                                   4            [1]
+                                   3            [1]
+                                   2            [1]
+                                   1            [1]
+                                   0            
+
+ff: found legal plan as follows
+
+step    0: LIFT HOIST3 CRATE0 PALLET9 DEPOT3
+        1: LIFT HOIST1 CRATE1 PALLET1 DEPOT1
+        2: DRIVE TRUCK1 DISTRIBUTOR0 DEPOT0
+        3: LIFT HOIST0 CRATE6 PALLET0 DEPOT0
+        4: LIFT HOIST3 CRATE7 PALLET3 DEPOT3
+        5: LOAD HOIST0 CRATE6 TRUCK1 DEPOT0
+        6: LIFT HOIST5 CRATE5 CRATE3 DISTRIBUTOR1
+        7: LIFT HOIST4 CRATE2 PALLET4 DISTRIBUTOR0
+        8: UNLOAD HOIST4 CRATE6 TRUCK1 DISTRIBUTOR0
+        9: DRIVE TRUCK0 DEPOT0 DEPOT1
+       10: LOAD HOIST1 CRATE1 TRUCK0 DEPOT1
+       11: DRIVE TRUCK0 DEPOT0 DISTRIBUTOR1
+       12: UNLOAD HOIST5 CRATE1 TRUCK0 DISTRIBUTOR1
+       13: DRIVE TRUCK0 DEPOT0 DEPOT3
+       14: LOAD HOIST3 CRATE0 TRUCK0 DEPOT3
+       15: LOAD HOIST5 CRATE5 TRUCK0 DISTRIBUTOR1
+       16: DRIVE TRUCK0 DEPOT0 DISTRIBUTOR2
+       17: LOAD HOIST3 CRATE7 TRUCK0 DEPOT3
+       18: UNLOAD HOIST6 CRATE0 TRUCK0 DISTRIBUTOR2
+       19: LIFT HOIST6 CRATE4 PALLET8 DISTRIBUTOR2
+       20: LOAD HOIST6 CRATE4 TRUCK0 DISTRIBUTOR2
+       21: UNLOAD HOIST6 CRATE1 TRUCK0 DISTRIBUTOR2
+       22: DROP HOIST5 CRATE1 CRATE5 DISTRIBUTOR1
+       23: LIFT HOIST5 CRATE3 PALLET5 DISTRIBUTOR1
+       24: UNLOAD HOIST5 CRATE4 TRUCK0 DISTRIBUTOR1
+       25: UNLOAD HOIST3 CRATE5 TRUCK0 DEPOT3
+       26: UNLOAD HOIST6 CRATE7 TRUCK0 DISTRIBUTOR2
+       27: DROP HOIST6 CRATE0 PALLET6 DISTRIBUTOR2
+       28: DROP HOIST6 CRATE1 PALLET8 DISTRIBUTOR2
+       29: DROP HOIST5 CRATE3 CRATE1 DISTRIBUTOR1
+       30: DROP HOIST5 CRATE4 PALLET5 DISTRIBUTOR1
+       31: DROP HOIST3 CRATE5 CRATE7 DEPOT3
+       32: DROP HOIST4 CRATE6 PALLET4 DISTRIBUTOR0
+       33: DROP HOIST6 CRATE7 CRATE4 DISTRIBUTOR2
+     
+
+time spent:    0.00 seconds instantiating 22784 easy, 0 hard action templates
+               0.00 seconds reachability analysis, yielding 380 facts and 2512 actions
+               0.00 seconds creating final representation with 324 relevant facts
+               0.00 seconds building connectivity graph
+               0.00 seconds searching, evaluating 35 states, to a max depth of 1
+               0.00 seconds total time
+

@@ -1,0 +1,169 @@
+
+ff: parsing domain file
+domain 'BLOCKS' defined
+ ... done.
+ff: parsing problem file
+problem 'BLOCKS-38-0' defined
+ ... done.
+
+
+
+Cueing down from goal distance:   73 into depth [1]
+                                  72            [1]
+                                  71            [1]
+                                  70            [1]
+                                  69            [1]
+                                  68            [1]
+                                  67            [1]
+                                  66            [1]
+                                  65            [1]
+                                  64            [1]
+                                  63            [1]
+                                  62            [1]
+                                  61            [1]
+                                  60            [1]
+                                  59            [1]
+                                  58            [1]
+                                  57            [1]
+                                  56            [1]
+                                  55            [1]
+                                  54            [1]
+                                  53            [1]
+                                  52            [1]
+                                  51            [1]
+                                  50            [1]
+                                  49            [1]
+                                  48            [1]
+                                  47            [1]
+                                  46            [1]
+                                  45            [1]
+                                  44            [1]
+                                  43            [1]
+                                  42            [1]
+                                  41            [1]
+                                  40            [1]
+                                  39            [1]
+                                  38            [1]
+                                  37            [1]
+                                  36            [1]
+                                  35            [1]
+                                  34            [1]
+                                  33            [1]
+                                  32            [1]
+                                  31            [1]
+                                  30            [1]
+                                  29            [1]
+                                  28            [1]
+                                  27            [1]
+                                  26            [1]
+                                  25            [1]
+                                  24            [1]
+                                  23            [1]
+                                  22            [1]
+                                  21            [1]
+                                  20            [1]
+                                  19            [1]
+                                  18            [1]
+                                  17            [1]
+                                  16            [1]
+                                  15            [1]
+                                  14            [1]
+                                  13            [1]
+                                  12            [1]
+                                  11            [1]
+                                  10            [1]
+                                   9            [1]
+                                   8            [1]
+                                   7            [1]
+                                   6            [1]
+                                   5            [1]
+                                   4            [1]
+                                   3            [1]
+                                   2            [1]
+                                   1            [1]
+                                   0            
+
+ff: found legal plan as follows
+
+step    0: PICK-UP L
+        1: PICK-UP V
+        2: UNSTACK F I1
+        3: UNSTACK B1 U
+        4: UNSTACK U O
+        5: PICK-UP O
+        6: PICK-UP G1
+        7: UNSTACK I1 S
+        8: UNSTACK S H
+        9: UNSTACK H K1
+       10: UNSTACK K1 Z
+       11: UNSTACK Z J1
+       12: UNSTACK J1 J
+       13: UNSTACK J Q
+       14: UNSTACK Q A
+       15: UNSTACK A B
+       16: UNSTACK B K
+       17: UNSTACK K G
+       18: UNSTACK G E1
+       19: UNSTACK E1 D1
+       20: UNSTACK D1 E
+       21: UNSTACK E M
+       22: UNSTACK M Y
+       23: UNSTACK H1 N
+       24: UNSTACK Y T
+       25: UNSTACK T A1
+       26: UNSTACK A1 P
+       27: UNSTACK P X
+       28: UNSTACK X D
+       29: UNSTACK D C1
+       30: UNSTACK C1 W
+       31: UNSTACK W F1
+       32: UNSTACK F1 L1
+       33: UNSTACK L1 C
+       34: UNSTACK C I
+       35: UNSTACK I R
+       36: PICK-UP R
+       37: STACK L1 A1
+       38: STACK A1 J1
+       39: STACK J1 W
+       40: STACK W K
+       41: STACK K A
+       42: STACK A P
+       43: STACK P B1
+       44: STACK B1 D
+       45: STACK D M
+       46: STACK M H1
+       47: STACK H1 G1
+       48: STACK G1 C1
+       49: STACK C1 F
+       50: STACK F K1
+       51: STACK K1 E
+       52: STACK E D1
+       53: STACK D1 B
+       54: STACK B I1
+       55: STACK I1 R
+       56: STACK R T
+       57: STACK T S
+       58: STACK H O
+       59: STACK O E1
+       60: STACK E1 G
+       61: STACK G Z
+       62: STACK Z L
+       63: STACK L U
+       64: STACK U Q
+       65: STACK Q Y
+       66: STACK Y C
+       67: STACK C V
+       68: STACK V J
+       69: STACK J F1
+       70: STACK F1 X
+       71: STACK X I
+       72: STACK I N
+     
+
+time spent:    0.00 seconds instantiating 2964 easy, 0 hard action templates
+               0.00 seconds reachability analysis, yielding 1559 facts and 2964 actions
+               0.00 seconds creating final representation with 1514 relevant facts
+               0.00 seconds building connectivity graph
+               0.01 seconds searching, evaluating 74 states, to a max depth of 1
+               0.01 seconds total time
+

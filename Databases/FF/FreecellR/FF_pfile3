@@ -1,0 +1,63 @@
+
+ff: parsing domain file
+domain 'FREECELL' defined
+ ... done.
+ff: parsing problem file
+problem 'FREECELL4-4' defined
+ ... done.
+
+
+
+Cueing down from goal distance:   24 into depth [1]
+                                  22            [1]
+                                  20            [1]
+                                  18            [1]
+                                  17            [1]
+                                  15            [1]
+                                  14            [1]
+                                  13            [1]
+                                  12            [1]
+                                  11            [1]
+                                  10            [1]
+                                   9            [1]
+                                   8            [1]
+                                   7            [1]
+                                   6            [1]
+                                   5            [1]
+                                   4            [1]
+                                   3            [1]
+                                   2            [1]
+                                   1            [1]
+                                   0            
+
+ff: found legal plan as follows
+
+step    0: SENDTOFREE HEART3 SPADEA N2 N1
+        1: SENDTOHOME SPADEA HEARTA SPADE N1 SPADE0 N0
+        2: SENDTOHOME DIAMONDA SPADE2 DIAMOND N1 DIAMOND0 N0
+        3: MOVE CLUB3 SPADE3 DIAMOND4
+        4: SENDTOHOME-B HEARTA HEART N1 HEART0 N0 N0 N1
+        5: SENDTOHOME DIAMOND2 CLUBA DIAMOND N2 DIAMONDA N1
+        6: SENDTOFREE DIAMOND4 DIAMOND3 N2 N1
+        7: SENDTOHOME DIAMOND3 CLUB2 DIAMOND N3 DIAMOND2 N2
+        8: SENDTOHOME SPADE2 CLUB4 SPADE N2 SPADEA N1
+        9: SENDTOHOME SPADE3 HEART2 SPADE N3 SPADE2 N2
+       10: SENDTOHOME HEART2 SPADE4 HEART N2 HEARTA N1
+       11: SENDTOFREE CLUBA HEART4 N2 N1
+       12: SENDTOHOME CLUBA HEART4 CLUB N1 CLUB0 N0
+       13: SENDTOHOME-B CLUB2 CLUB N2 CLUBA N1 N1 N2
+       14: SENDTOHOME CLUB3 DIAMOND4 CLUB N3 CLUB2 N2
+       15: HOMEFROMFREECELL HEART3 HEART N3 HEART2 N2 N2 N3
+       16: HOMEFROMFREECELL DIAMOND4 DIAMOND N4 DIAMOND3 N3 N2 N3
+       17: SENDTOHOME-B CLUB4 CLUB N4 CLUB3 N3 N2 N3
+       18: SENDTOHOME-B HEART4 HEART N4 HEART3 N3 N3 N4
+       19: SENDTOHOME-B SPADE4 SPADE N4 SPADE3 N3 N4 N5
+     
+
+time spent:    0.00 seconds instantiating 6200 easy, 0 hard action templates
+               0.00 seconds reachability analysis, yielding 114 facts and 1640 actions
+               0.00 seconds creating final representation with 87 relevant facts
+               0.00 seconds building connectivity graph
+               0.00 seconds searching, evaluating 53 states, to a max depth of 1
+               0.00 seconds total time
+

@@ -1,0 +1,89 @@
+
+ff: parsing domain file
+domain 'DEPOT' defined
+ ... done.
+ff: parsing problem file
+problem 'DEPOTPROB8715' defined
+ ... done.
+
+
+
+Cueing down from goal distance:   33 into depth [1]
+                                  32            [1]
+                                  31            [1]
+                                  30            [1]
+                                  29            [1]
+                                  28            [1]
+                                  27            [1]
+                                  26            [1]
+                                  25            [1]
+                                  24            [1]
+                                  23            [1]
+                                  22            [1]
+                                  21            [1]
+                                  20            [1]
+                                  19            [1]
+                                  18            [1]
+                                  17            [1]
+                                  16            [1]
+                                  15            [1]
+                                  14            [1]
+                                  13            [1]
+                                  12            [1]
+                                  11            [1]
+                                  10            [1]
+                                   9            [1]
+                                   8            [1]
+                                   7            [1]
+                                   6            [1]
+                                   5            [1]
+                                   4            [1]
+                                   3            [1]
+                                   2            [1]
+                                   1            [1]
+                                   0            
+
+ff: found legal plan as follows
+
+step    0: LIFT HOIST1 CRATE0 PALLET16 DEPOT1
+        1: DRIVE TRUCK0 DISTRIBUTOR2 DEPOT0
+        2: LIFT HOIST0 CRATE1 PALLET0 DEPOT0
+        3: LIFT HOIST1 CRATE5 PALLET1 DEPOT1
+        4: DRIVE TRUCK0 DISTRIBUTOR2 DEPOT4
+        5: LIFT HOIST4 CRATE6 PALLET4 DEPOT4
+        6: LOAD HOIST0 CRATE1 TRUCK0 DEPOT0
+        7: DRIVE TRUCK0 DISTRIBUTOR2 DISTRIBUTOR1
+        8: LOAD HOIST4 CRATE6 TRUCK0 DEPOT4
+        9: LIFT HOIST7 CRATE8 PALLET7 DISTRIBUTOR1
+       10: DRIVE TRUCK0 DISTRIBUTOR2 DEPOT1
+       11: DRIVE TRUCK0 DISTRIBUTOR2 DEPOT2
+       12: LOAD HOIST1 CRATE0 TRUCK0 DEPOT1
+       13: DRIVE TRUCK0 DISTRIBUTOR2 DEPOT5
+       14: LOAD HOIST1 CRATE5 TRUCK0 DEPOT1
+       15: LOAD HOIST7 CRATE8 TRUCK0 DISTRIBUTOR1
+       16: UNLOAD HOIST2 CRATE0 TRUCK0 DEPOT2
+       17: UNLOAD HOIST7 CRATE1 TRUCK0 DISTRIBUTOR1
+       18: LIFT HOIST11 CRATE2 PALLET13 DISTRIBUTOR5
+       19: UNLOAD HOIST5 CRATE5 TRUCK0 DEPOT5
+       20: UNLOAD HOIST7 CRATE6 TRUCK0 DISTRIBUTOR1
+       21: LIFT HOIST13 CRATE3 PALLET15 DEPOT1
+       22: DRIVE TRUCK0 DISTRIBUTOR2 DEPOT3
+       23: LOAD HOIST13 CRATE3 TRUCK0 DEPOT1
+       24: UNLOAD HOIST3 CRATE3 TRUCK0 DEPOT3
+       25: UNLOAD HOIST1 CRATE8 TRUCK0 DEPOT1
+       26: DROP HOIST2 CRATE0 PALLET2 DEPOT2
+       27: DROP HOIST7 CRATE1 PALLET7 DISTRIBUTOR1
+       28: DROP HOIST11 CRATE2 PALLET11 DISTRIBUTOR5
+       29: DROP HOIST3 CRATE3 PALLET3 DEPOT3
+       30: DROP HOIST5 CRATE5 PALLET5 DEPOT5
+       31: DROP HOIST7 CRATE6 PALLET12 DISTRIBUTOR1
+       32: DROP HOIST1 CRATE8 PALLET15 DEPOT1
+     
+
+time spent:    0.00 seconds instantiating 130464 easy, 0 hard action templates
+               0.02 seconds reachability analysis, yielding 782 facts and 8934 actions
+               0.00 seconds creating final representation with 686 relevant facts
+               0.00 seconds building connectivity graph
+               0.00 seconds searching, evaluating 34 states, to a max depth of 1
+               0.02 seconds total time
+

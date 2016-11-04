@@ -1,0 +1,45 @@
+
+ff: parsing domain file
+domain 'ZENO-TRAVEL' defined
+ ... done.
+ff: parsing problem file
+problem 'ZTRAVEL-5' defined
+ ... done.
+
+
+
+Cueing down from goal distance:   11 into depth [1]
+                                  10            [1]
+                                   9            [1]
+                                   8            [1]
+                                   7            [1]
+                                   6            [1]
+                                   5            [1]
+                                   4            [1]
+                                   3            [1]
+                                   2            [1]
+                                   1            [1]
+                                   0            
+
+ff: found legal plan as follows
+
+step    0: FLY PLANE1 CITY1 CITY0 FL6 FL5
+        1: BOARD PERSON2 PLANE1 CITY0
+        2: BOARD PERSON3 PLANE1 CITY0
+        3: BOARD PERSON4 PLANE1 CITY1
+        4: FLY PLANE1 CITY1 CITY3 FL6 FL5
+        5: BOARD PERSON1 PLANE1 CITY3
+        6: FLY PLANE1 CITY1 CITY2 FL6 FL5
+        7: DEBARK PERSON1 PLANE1 CITY2
+        8: DEBARK PERSON2 PLANE1 CITY3
+        9: DEBARK PERSON3 PLANE1 CITY3
+       10: DEBARK PERSON4 PLANE1 CITY3
+     
+
+time spent:    0.00 seconds instantiating 464 easy, 0 hard action templates
+               0.00 seconds reachability analysis, yielding 46 facts and 464 actions
+               0.00 seconds creating final representation with 38 relevant facts
+               0.00 seconds building connectivity graph
+               0.00 seconds searching, evaluating 12 states, to a max depth of 1
+               0.00 seconds total time
+

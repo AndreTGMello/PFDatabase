@@ -1,0 +1,119 @@
+
+ff: parsing domain file
+domain 'BLOCKS' defined
+ ... done.
+ff: parsing problem file
+problem 'BLOCKS-26-0' defined
+ ... done.
+
+
+
+Cueing down from goal distance:   48 into depth [1]
+                                  47            [1]
+                                  46            [1]
+                                  45            [1]
+                                  44            [1]
+                                  43            [1]
+                                  42            [1]
+                                  41            [1]
+                                  40            [1]
+                                  39            [1]
+                                  38            [1]
+                                  37            [1]
+                                  36            [1]
+                                  35            [1]
+                                  34            [1]
+                                  33            [1]
+                                  32            [1]
+                                  31            [1]
+                                  30            [1]
+                                  29            [1]
+                                  28            [1]
+                                  27            [1]
+                                  26            [1]
+                                  25            [1]
+                                  24            [1]
+                                  23            [1]
+                                  22            [1]
+                                  21            [1]
+                                  20            [1]
+                                  19            [1]
+                                  18            [1]
+                                  17            [1]
+                                  16            [1]
+                                  15            [1]
+                                  14            [1]
+                                  13            [1]
+                                  12            [1]
+                                  11            [1]
+                                  10            [1]
+                                   9            [1]
+                                   8            [1]
+                                   7            [1]
+                                   6            [1]
+                                   5            [1]
+                                   4            [1]
+                                   3            [1]
+                                   2            [1]
+                                   1            [1]
+                                   0            
+
+ff: found legal plan as follows
+
+step    0: PICK-UP Y
+        1: UNSTACK X V
+        2: UNSTACK B E
+        3: UNSTACK V H
+        4: UNSTACK H M
+        5: UNSTACK M T
+        6: UNSTACK F P
+        7: PICK-UP P
+        8: UNSTACK E A
+        9: UNSTACK A L
+       10: UNSTACK L Q
+       11: UNSTACK Q I
+       12: UNSTACK I Z
+       13: UNSTACK Z K
+       14: UNSTACK U O
+       15: UNSTACK K N
+       16: UNSTACK O G
+       17: UNSTACK G W
+       18: UNSTACK N S
+       19: UNSTACK S C
+       20: UNSTACK T J
+       21: PICK-UP J
+       22: UNSTACK C D
+       23: PICK-UP D
+       24: UNSTACK W R
+       25: PICK-UP R
+       26: STACK X E
+       27: STACK E N
+       28: STACK N O
+       29: STACK O U
+       30: STACK U I
+       31: STACK K Y
+       32: STACK Y V
+       33: STACK V G
+       34: STACK G B
+       35: STACK B J
+       36: STACK J S
+       37: STACK C R
+       38: STACK R L
+       39: STACK L H
+       40: STACK H T
+       41: STACK T D
+       42: STACK D F
+       43: STACK F M
+       44: STACK M W
+       45: STACK W Q
+       46: STACK Q P
+       47: STACK P A
+     
+
+time spent:    0.00 seconds instantiating 1404 easy, 0 hard action templates
+               0.00 seconds reachability analysis, yielding 755 facts and 1404 actions
+               0.00 seconds creating final representation with 723 relevant facts
+               0.00 seconds building connectivity graph
+               0.00 seconds searching, evaluating 49 states, to a max depth of 1
+               0.00 seconds total time
+

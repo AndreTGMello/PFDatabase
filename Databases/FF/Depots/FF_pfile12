@@ -1,0 +1,166 @@
+
+ff: parsing domain file
+domain 'DEPOT' defined
+ ... done.
+ff: parsing problem file
+problem 'DEPOTPROB9876' defined
+ ... done.
+
+
+
+Cueing down from goal distance:   50 into depth [1]
+                                  48            [1]
+                                  47            [1]
+                                  46            [1][2]
+                                  45            [1][2]
+                                  44            [1][2][3]
+                                  43            [1][2][3]
+                                  42            [1]
+                                  40            [1][2][3]
+                                  39            [1][2]
+                                  37            [1][2]
+                                  36            [1][2][3][4][5][6][7]
+                                  35            [1][2][3][4]
+                                  34            [1][2][3][4][5]
+                                  33            [1]
+                                  32            [1][2][3]
+                                  30            [1]
+                                  29            [1][2]
+                                  28            [1]
+                                  27            [1]
+                                  26            [1][2][3][4][5]
+                                  25            [1][2]
+                                  24            [1][2][3][4][5]
+                                  23            [1][2][3][4][5]
+                                  22            [1]
+                                  21            [1]
+                                  20            [1]
+                                  19            [1]
+                                  18            [1][2][3][4][5][6][7][8]
+                                  17            [1]
+                                  16            [1][2]
+                                  15            [1]
+                                  14            [1]
+                                  13            [1][2]
+                                  12            [1][2][3][4][5]
+                                  11            [1][2][3][4]
+                                  10            [1]
+                                   9            [1][2]
+                                   8            [1]
+                                   7            [1]
+                                   6            [1][2]
+                                   5            [1][2][3][4][5]
+                                   4            [1]
+                                   3            [1]
+                                   2            [1]
+                                   1            [1]
+                                   0            
+
+ff: found legal plan as follows
+
+step    0: DRIVE TRUCK1 DEPOT1 DISTRIBUTOR1
+        1: LIFT HOIST4 CRATE14 CRATE11 DISTRIBUTOR1
+        2: LOAD HOIST4 CRATE14 TRUCK0 DISTRIBUTOR1
+        3: DRIVE TRUCK0 DISTRIBUTOR1 DEPOT1
+        4: UNLOAD HOIST1 CRATE14 TRUCK0 DEPOT1
+        5: LIFT HOIST4 CRATE11 PALLET4 DISTRIBUTOR1
+        6: LOAD HOIST4 CRATE11 TRUCK1 DISTRIBUTOR1
+        7: DRIVE TRUCK0 DEPOT1 DISTRIBUTOR0
+        8: LIFT HOIST3 CRATE4 CRATE2 DISTRIBUTOR0
+        9: LOAD HOIST3 CRATE4 TRUCK0 DISTRIBUTOR0
+       10: LIFT HOIST3 CRATE2 PALLET3 DISTRIBUTOR0
+       11: LOAD HOIST3 CRATE2 TRUCK0 DISTRIBUTOR0
+       12: DRIVE TRUCK0 DISTRIBUTOR0 DEPOT2
+       13: DRIVE TRUCK0 DEPOT2 DISTRIBUTOR2
+       14: LIFT HOIST5 CRATE13 CRATE9 DISTRIBUTOR2
+       15: LOAD HOIST5 CRATE13 TRUCK0 DISTRIBUTOR2
+       16: UNLOAD HOIST5 CRATE2 TRUCK0 DISTRIBUTOR2
+       17: DRIVE TRUCK0 DISTRIBUTOR2 DEPOT1
+       18: LOAD HOIST1 CRATE14 TRUCK0 DEPOT1
+       19: UNLOAD HOIST1 CRATE13 TRUCK0 DEPOT1
+       20: DRIVE TRUCK0 DEPOT1 DEPOT2
+       21: DRIVE TRUCK0 DEPOT2 DISTRIBUTOR2
+       22: LOAD HOIST5 CRATE2 TRUCK0 DISTRIBUTOR2
+       23: LIFT HOIST5 CRATE9 CRATE8 DISTRIBUTOR2
+       24: LOAD HOIST5 CRATE9 TRUCK0 DISTRIBUTOR2
+       25: LIFT HOIST5 CRATE8 CRATE7 DISTRIBUTOR2
+       26: LOAD HOIST5 CRATE8 TRUCK0 DISTRIBUTOR2
+       27: LIFT HOIST5 CRATE7 CRATE6 DISTRIBUTOR2
+       28: LOAD HOIST5 CRATE7 TRUCK0 DISTRIBUTOR2
+       29: DRIVE TRUCK0 DISTRIBUTOR2 DEPOT2
+       30: UNLOAD HOIST2 CRATE9 TRUCK0 DEPOT2
+       31: DRIVE TRUCK0 DEPOT2 DISTRIBUTOR2
+       32: DROP HOIST2 CRATE9 PALLET2 DEPOT2
+       33: LIFT HOIST5 CRATE6 CRATE3 DISTRIBUTOR2
+       34: LOAD HOIST5 CRATE6 TRUCK0 DISTRIBUTOR2
+       35: LIFT HOIST5 CRATE3 CRATE0 DISTRIBUTOR2
+       36: LOAD HOIST5 CRATE3 TRUCK0 DISTRIBUTOR2
+       37: UNLOAD HOIST5 CRATE2 TRUCK0 DISTRIBUTOR2
+       38: DRIVE TRUCK0 DISTRIBUTOR2 DEPOT2
+       39: UNLOAD HOIST2 CRATE3 TRUCK0 DEPOT2
+       40: DRIVE TRUCK0 DEPOT2 DISTRIBUTOR2
+       41: DROP HOIST2 CRATE3 CRATE9 DEPOT2
+       42: LOAD HOIST5 CRATE2 TRUCK0 DISTRIBUTOR2
+       43: LIFT HOIST5 CRATE0 PALLET5 DISTRIBUTOR2
+       44: LOAD HOIST5 CRATE0 TRUCK0 DISTRIBUTOR2
+       45: DRIVE TRUCK0 DISTRIBUTOR2 DISTRIBUTOR1
+       46: UNLOAD HOIST4 CRATE2 TRUCK0 DISTRIBUTOR1
+       47: DROP HOIST4 CRATE2 PALLET4 DISTRIBUTOR1
+       48: UNLOAD HOIST4 CRATE6 TRUCK0 DISTRIBUTOR1
+       49: LOAD HOIST4 CRATE6 TRUCK1 DISTRIBUTOR1
+       50: UNLOAD HOIST4 CRATE0 TRUCK0 DISTRIBUTOR1
+       51: LOAD HOIST4 CRATE0 TRUCK1 DISTRIBUTOR1
+       52: DRIVE TRUCK0 DISTRIBUTOR1 DISTRIBUTOR2
+       53: LIFT HOIST4 CRATE2 PALLET4 DISTRIBUTOR1
+       54: LOAD HOIST4 CRATE2 TRUCK1 DISTRIBUTOR1
+       55: UNLOAD HOIST4 CRATE0 TRUCK1 DISTRIBUTOR1
+       56: DROP HOIST4 CRATE0 PALLET4 DISTRIBUTOR1
+       57: UNLOAD HOIST4 CRATE2 TRUCK1 DISTRIBUTOR1
+       58: DROP HOIST4 CRATE2 CRATE0 DISTRIBUTOR1
+       59: UNLOAD HOIST4 CRATE6 TRUCK1 DISTRIBUTOR1
+       60: DROP HOIST4 CRATE6 CRATE2 DISTRIBUTOR1
+       61: DRIVE TRUCK0 DISTRIBUTOR2 DEPOT1
+       62: LOAD HOIST1 CRATE13 TRUCK0 DEPOT1
+       63: LIFT HOIST1 CRATE12 CRATE10 DEPOT1
+       64: LOAD HOIST1 CRATE12 TRUCK0 DEPOT1
+       65: LIFT HOIST1 CRATE10 CRATE5 DEPOT1
+       66: LOAD HOIST1 CRATE10 TRUCK0 DEPOT1
+       67: LIFT HOIST1 CRATE5 CRATE1 DEPOT1
+       68: LOAD HOIST1 CRATE5 TRUCK0 DEPOT1
+       69: UNLOAD HOIST1 CRATE10 TRUCK0 DEPOT1
+       70: DRIVE TRUCK0 DEPOT1 DEPOT0
+       71: UNLOAD HOIST0 CRATE5 TRUCK0 DEPOT0
+       72: DRIVE TRUCK0 DEPOT0 DEPOT1
+       73: DROP HOIST0 CRATE5 PALLET0 DEPOT0
+       74: DROP HOIST1 CRATE10 CRATE1 DEPOT1
+       75: UNLOAD HOIST1 CRATE14 TRUCK0 DEPOT1
+       76: DRIVE TRUCK0 DEPOT1 DISTRIBUTOR2
+       77: UNLOAD HOIST5 CRATE12 TRUCK0 DISTRIBUTOR2
+       78: DRIVE TRUCK0 DISTRIBUTOR2 DEPOT1
+       79: LOAD HOIST1 CRATE14 TRUCK0 DEPOT1
+       80: DROP HOIST5 CRATE12 PALLET5 DISTRIBUTOR2
+       81: LIFT HOIST1 CRATE10 CRATE1 DEPOT1
+       82: LOAD HOIST1 CRATE10 TRUCK0 DEPOT1
+       83: LIFT HOIST1 CRATE1 PALLET1 DEPOT1
+       84: LOAD HOIST1 CRATE1 TRUCK0 DEPOT1
+       85: UNLOAD HOIST1 CRATE10 TRUCK0 DEPOT1
+       86: DRIVE TRUCK0 DEPOT1 DISTRIBUTOR2
+       87: UNLOAD HOIST5 CRATE1 TRUCK0 DISTRIBUTOR2
+       88: DRIVE TRUCK0 DISTRIBUTOR2 DEPOT1
+       89: DROP HOIST5 CRATE1 CRATE12 DISTRIBUTOR2
+       90: LOAD HOIST1 CRATE10 TRUCK0 DEPOT1
+       91: UNLOAD HOIST1 CRATE13 TRUCK0 DEPOT1
+       92: DROP HOIST1 CRATE13 PALLET1 DEPOT1
+       93: UNLOAD HOIST1 CRATE10 TRUCK0 DEPOT1
+       94: DROP HOIST1 CRATE10 CRATE13 DEPOT1
+       95: UNLOAD HOIST1 CRATE14 TRUCK0 DEPOT1
+       96: DROP HOIST1 CRATE14 CRATE10 DEPOT1
+     
+
+time spent:    0.00 seconds instantiating 24912 easy, 0 hard action templates
+               0.00 seconds reachability analysis, yielding 576 facts and 3762 actions
+               0.00 seconds creating final representation with 564 relevant facts
+               0.00 seconds building connectivity graph
+               0.60 seconds searching, evaluating 3708 states, to a max depth of 8
+               0.60 seconds total time
+

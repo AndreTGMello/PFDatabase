@@ -1,0 +1,8 @@
+(define (problem BLOCKS-0-0)
+(:domain BLOCKS)
+(:requirements :strips :typing)
+(:objects A B - block)
+(:INIT (clear A) (clear B) (ontable A) (ontable B)
+ (handempty))
+(:goal (AND (on B A)))
+)

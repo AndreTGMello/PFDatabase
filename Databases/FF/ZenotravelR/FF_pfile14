@@ -1,0 +1,79 @@
+
+ff: parsing domain file
+domain 'ZENO-TRAVEL' defined
+ ... done.
+ff: parsing problem file
+problem 'ZTRAVEL-14' defined
+ ... done.
+
+
+
+Cueing down from goal distance:   29 into depth [1]
+                                  28            [1]
+                                  26            [1]
+                                  25            [1]
+                                  24            [1]
+                                  23            [1]
+                                  22            [1]
+                                  21            [1]
+                                  20            [1]
+                                  19            [1]
+                                  18            [1]
+                                  17            [1]
+                                  16            [1]
+                                  15            [1]
+                                  14            [1]
+                                  13            [1]
+                                  12            [1]
+                                  11            [1]
+                                  10            [1]
+                                   9            [1]
+                                   8            [1]
+                                   7            [1]
+                                   6            [1]
+                                   5            [1]
+                                   4            [1]
+                                   3            [1]
+                                   2            [1]
+                                   1            [1]
+                                   0            
+
+ff: found legal plan as follows
+
+step    0: FLY PLANE4 CITY8 CITY1 FL3 FL2
+        1: FLY PLANE2 CITY2 CITY0 FL6 FL5
+        2: FLY PLANE4 CITY8 CITY6 FL3 FL2
+        3: BOARD PERSON2 PLANE4 CITY1
+        4: BOARD PERSON3 PLANE2 CITY0
+        5: BOARD PERSON4 PLANE5 CITY9
+        6: FLY PLANE5 CITY9 CITY7 FL4 FL3
+        7: BOARD PERSON5 PLANE4 CITY6
+        8: BOARD PERSON6 PLANE2 CITY0
+        9: FLY PLANE2 CITY2 CITY6 FL6 FL5
+       10: BOARD PERSON7 PLANE5 CITY7
+       11: FLY PLANE5 CITY9 CITY5 FL4 FL3
+       12: BOARD PERSON8 PLANE4 CITY6
+       13: BOARD PERSON9 PLANE3 CITY4
+       14: FLY PLANE3 CITY4 CITY5 FL6 FL5
+       15: BOARD PERSON10 PLANE5 CITY7
+       16: FLY PLANE2 CITY2 CITY3 FL6 FL5
+       17: FLY PLANE4 CITY8 CITY5 FL3 FL2
+       18: FLY PLANE5 CITY9 CITY8 FL4 FL3
+       19: DEBARK PERSON2 PLANE4 CITY8
+       20: DEBARK PERSON3 PLANE2 CITY2
+       21: DEBARK PERSON4 PLANE5 CITY7
+       22: DEBARK PERSON5 PLANE4 CITY1
+       23: DEBARK PERSON6 PLANE2 CITY6
+       24: DEBARK PERSON7 PLANE5 CITY5
+       25: DEBARK PERSON8 PLANE4 CITY1
+       26: DEBARK PERSON9 PLANE3 CITY5
+       27: DEBARK PERSON10 PLANE5 CITY9
+     
+
+time spent:    0.00 seconds instantiating 6800 easy, 0 hard action templates
+               0.00 seconds reachability analysis, yielding 235 facts and 6800 actions
+               0.00 seconds creating final representation with 215 relevant facts
+               0.00 seconds building connectivity graph
+               0.00 seconds searching, evaluating 39 states, to a max depth of 1
+               0.00 seconds total time
+

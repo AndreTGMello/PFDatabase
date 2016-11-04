@@ -1,0 +1,147 @@
+
+ff: parsing domain file
+domain 'FREECELL' defined
+ ... done.
+ff: parsing problem file
+problem 'FREECELL10-4' defined
+ ... done.
+
+
+
+Cueing down from goal distance:   69 into depth [1]
+                                  67            [1]
+                                  66            [1]
+                                  65            [1]
+                                  64            [1]
+                                  63            [1]
+                                  62            [1]
+                                  61            [1]
+                                  60            [1]
+                                  58            [1]
+                                  57            [1]
+                                  56            [1]
+                                  55            [1]
+                                  54            [1]
+                                  52            [1]
+                                  51            [1]
+                                  50            [1]
+                                  49            [1]
+                                  48            [1]
+                                  47            [1]
+                                  46            [1]
+                                  45            [1]
+                                  44            [1]
+                                  43            [1]
+                                  41            [1]
+                                  40            [1]
+                                  38            [1][2]
+                                  36            [1]
+                                  35            [1][2]
+                                  34            [1]
+                                  32            [1]
+                                  30            [1]
+                                  29            [1]
+                                  28            [1]
+                                  27            [1]
+                                  26            [1]
+                                  25            [1]
+                                  24            [1]
+                                  23            [1]
+                                  22            [1]
+                                  21            [1]
+                                  20            [1]
+                                  19            [1]
+                                  18            [1]
+                                  17            [1]
+                                  16            [1]
+                                  15            [1]
+                                  14            [1]
+                                  13            [1]
+                                  12            [1]
+                                  11            [1]
+                                  10            [1]
+                                   9            [1]
+                                   8            [1]
+                                   7            [1]
+                                   6            [1]
+                                   5            [1]
+                                   4            [1]
+                                   3            [1]
+                                   2            [1]
+                                   1            [1]
+                                   0            
+
+ff: found legal plan as follows
+
+step    0: SENDTOHOME SPADEA CLUB3 SPADE N1 SPADE0 N0
+        1: SENDTOFREE CLUB3 SPADE3 N4 N3
+        2: MOVE HEART2 HEART4 CLUB3
+        3: SENDTOFREE CLUB10 DIAMOND3 N4 N3
+        4: SENDTOFREE HEART4 HEART5 N4 N3
+        5: SENDTOFREE HEART5 HEART3 N4 N3
+        6: SENDTOFREE SPADE5 SPADE8 N4 N3
+        7: SENDTOFREE SPADE8 SPADE4 N4 N3
+        8: SENDTOHOME SPADE2 DIAMOND5 SPADE N2 SPADEA N1
+        9: SENDTOFREE DIAMOND5 CLUB5 N4 N3
+       10: SENDTOFREE CLUB5 CLUB6 N4 N3
+       11: SENDTOFREE CLUB6 DIAMOND7 N4 N3
+       12: SENDTOFREE HEART3 CLUB7 N4 N3
+       13: SENDTOHOME SPADE3 HEART9 SPADE N3 SPADE2 N2
+       14: SENDTOHOME CLUBA DIAMOND9 CLUB N1 CLUB0 N0
+       15: SENDTOFREE DIAMOND9 DIAMOND2 N4 N3
+       16: SENDTOFREE DIAMOND2 CLUB9 N4 N3
+       17: SENDTOFREE CLUB9 SPADE9 N4 N3
+       18: SENDTOFREE DIAMOND3 HEART10 N4 N3
+       19: SENDTOFREE HEART10 DIAMOND4 N4 N3
+       20: SENDTOFREE DIAMOND4 DIAMONDA N4 N3
+       21: SENDTOHOME-B DIAMONDA DIAMOND N1 DIAMOND0 N0 N0 N1
+       22: HOMEFROMFREECELL DIAMOND2 DIAMOND N2 DIAMONDA N1 N4 N5
+       23: HOMEFROMFREECELL DIAMOND3 DIAMOND N3 DIAMOND2 N2 N4 N5
+       24: SENDTOHOME SPADE4 DIAMOND10 SPADE N4 SPADE3 N3
+       25: HOMEFROMFREECELL SPADE5 SPADE N5 SPADE4 N4 N3 N4
+       26: HOMEFROMFREECELL DIAMOND4 DIAMOND N4 DIAMOND3 N3 N3 N4
+       27: SENDTOHOME DIAMOND5 CLUB5 DIAMOND N5 DIAMOND4 N4
+       28: SENDTOFREE DIAMOND10 CLUB4 N4 N3
+       29: SENDTOFREE HEART7 DIAMOND6 N4 N3
+       30: SENDTOHOME DIAMOND6 SPADE6 DIAMOND N6 DIAMOND5 N5
+       31: SENDTOHOME-B DIAMOND7 DIAMOND N7 DIAMOND6 N6 N1 N2
+       32: SENDTOHOME SPADE6 SPADE10 SPADE N6 SPADE5 N5
+       33: SENDTOFREE SPADE10 CLUB2 N4 N3
+       34: SENDTOHOME-B CLUB2 CLUB N2 CLUBA N1 N1 N2
+       35: HOMEFROMFREECELL CLUB3 CLUB N3 CLUB2 N2 N4 N5
+       36: SENDTOHOME-B CLUB4 CLUB N4 CLUB3 N3 N2 N3
+       37: HOMEFROMFREECELL CLUB5 CLUB N5 CLUB4 N4 N3 N4
+       38: SENDTOHOME CLUB6 DIAMOND7 CLUB N6 CLUB5 N5
+       39: SENDTOFREE HEART9 CLUB8 N4 N3
+       40: SENDTOHOME-B CLUB7 CLUB N7 CLUB6 N6 N3 N4
+       41: SENDTOHOME-B CLUB8 CLUB N8 CLUB7 N7 N3 N4
+       42: SENDTOHOME CLUB9 SPADE9 CLUB N9 CLUB8 N8
+       43: SENDTOHOME DIAMOND8 HEART8 DIAMOND N8 DIAMOND7 N7
+       44: SENDTOFREE HEART8 HEARTA N4 N3
+       45: SENDTOFREE HEARTA SPADE7 N4 N3
+       46: SENDTOHOME HEARTA SPADE7 HEART N1 HEART0 N0
+       47: SENDTOHOME HEART2 HEART4 HEART N2 HEARTA N1
+       48: HOMEFROMFREECELL HEART3 HEART N3 HEART2 N2 N4 N5
+       49: HOMEFROMFREECELL HEART4 HEART N4 HEART3 N3 N4 N5
+       50: HOMEFROMFREECELL HEART5 HEART N5 HEART4 N4 N3 N4
+       51: SENDTOHOME SPADE7 HEART6 SPADE N7 SPADE6 N6
+       52: SENDTOHOME-B HEART6 HEART N6 HEART5 N5 N4 N5
+       53: SENDTOHOME HEART7 DIAMOND6 HEART N7 HEART6 N6
+       54: SENDTOHOME HEART8 HEARTA HEART N8 HEART7 N7
+       55: SENDTOHOME SPADE8 SPADE4 SPADE N8 SPADE7 N7
+       56: HOMEFROMFREECELL DIAMOND9 DIAMOND N9 DIAMOND8 N8 N5 N6
+       57: SENDTOHOME HEART9 CLUB8 HEART N9 HEART8 N8
+       58: SENDTOHOME-B SPADE9 SPADE N9 SPADE8 N8 N4 N5
+       59: HOMEFROMFREECELL DIAMOND10 DIAMOND N10 DIAMOND9 N9 N6 N7
+       60: HOMEFROMFREECELL CLUB10 CLUB N10 CLUB9 N9 N7 N8
+       61: HOMEFROMFREECELL HEART10 HEART N10 HEART9 N9 N7 N8
+       62: HOMEFROMFREECELL SPADE10 SPADE N10 SPADE9 N9 N7 N8
+     
+
+time spent:    0.00 seconds instantiating 54688 easy, 0 hard action templates
+               0.01 seconds reachability analysis, yielding 289 facts and 12601 actions
+               0.01 seconds creating final representation with 235 relevant facts
+               0.00 seconds building connectivity graph
+               0.13 seconds searching, evaluating 192 states, to a max depth of 2
+               0.15 seconds total time
+

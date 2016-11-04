@@ -1,0 +1,41 @@
+
+ff: parsing domain file
+domain 'FREECELL' defined
+ ... done.
+ff: parsing problem file
+problem 'FREECELL2-4' defined
+ ... done.
+
+
+
+Cueing down from goal distance:   10 into depth [1]
+                                   8            [1]
+                                   7            [1]
+                                   6            [1]
+                                   5            [1]
+                                   4            [1]
+                                   3            [1]
+                                   2            [1]
+                                   1            [1]
+                                   0            
+
+ff: found legal plan as follows
+
+step    0: SENDTOFREE HEART2 CLUBA N2 N1
+        1: SENDTOHOME DIAMONDA HEARTA DIAMOND N1 DIAMOND0 N0
+        2: SENDTOHOME-B CLUBA CLUB N1 CLUB0 N0 N0 N1
+        3: SENDTOHOME-B HEARTA HEART N1 HEART0 N0 N1 N2
+        4: SENDTOHOME SPADEA SPADE2 SPADE N1 SPADE0 N0
+        5: SENDTOHOME CLUB2 DIAMOND2 CLUB N2 CLUBA N1
+        6: SENDTOHOME-B DIAMOND2 DIAMOND N2 DIAMONDA N1 N2 N3
+        7: HOMEFROMFREECELL HEART2 HEART N2 HEARTA N1 N2 N3
+        8: SENDTOHOME-B SPADE2 SPADE N2 SPADEA N1 N2 N3
+     
+
+time spent:    0.00 seconds instantiating 1856 easy, 0 hard action templates
+               0.00 seconds reachability analysis, yielding 58 facts and 512 actions
+               0.00 seconds creating final representation with 40 relevant facts
+               0.00 seconds building connectivity graph
+               0.00 seconds searching, evaluating 26 states, to a max depth of 1
+               0.00 seconds total time
+

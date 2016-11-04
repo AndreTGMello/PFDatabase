@@ -1,0 +1,147 @@
+
+ff: parsing domain file
+domain 'ZENO-TRAVEL' defined
+ ... done.
+ff: parsing problem file
+problem 'ZTRAVEL-19' defined
+ ... done.
+
+
+
+Cueing down from goal distance:   64 into depth [1]
+                                  63            [1]
+                                  62            [1]
+                                  61            [1]
+                                  60            [1]
+                                  59            [1]
+                                  58            [1]
+                                  57            [1]
+                                  56            [1]
+                                  55            [1]
+                                  54            [1]
+                                  53            [1]
+                                  52            [1]
+                                  51            [1]
+                                  50            [1]
+                                  49            [1]
+                                  48            [1]
+                                  45            [1]
+                                  44            [1]
+                                  43            [1]
+                                  42            [1]
+                                  41            [1]
+                                  40            [1]
+                                  39            [1]
+                                  38            [1]
+                                  37            [1]
+                                  36            [1]
+                                  35            [1]
+                                  34            [1]
+                                  33            [1]
+                                  32            [1]
+                                  31            [1]
+                                  30            [1]
+                                  29            [1]
+                                  28            [1]
+                                  27            [1]
+                                  26            [1]
+                                  25            [1]
+                                  24            [1]
+                                  23            [1]
+                                  22            [1]
+                                  21            [1]
+                                  20            [1]
+                                  19            [1]
+                                  18            [1]
+                                  17            [1]
+                                  16            [1]
+                                  15            [1]
+                                  14            [1]
+                                  13            [1]
+                                  12            [1]
+                                  11            [1]
+                                  10            [1]
+                                   9            [1]
+                                   8            [1]
+                                   7            [1]
+                                   6            [1]
+                                   5            [1]
+                                   4            [1]
+                                   3            [1]
+                                   2            [1]
+                                   1            [1]
+                                   0            
+
+ff: found legal plan as follows
+
+step    0: FLY PLANE4 CITY10 CITY19 FL2 FL1
+        1: FLY PLANE3 CITY16 CITY6 FL5 FL4
+        2: FLY PLANE1 CITY0 CITY9 FL1 FL0
+        3: FLY PLANE5 CITY1 CITY8 FL1 FL0
+        4: FLY PLANE5 CITY1 CITY15 FL1 FL0
+        5: BOARD PERSON1 PLANE4 CITY19
+        6: BOARD PERSON3 PLANE3 CITY6
+        7: BOARD PERSON4 PLANE3 CITY16
+        8: FLY PLANE3 CITY16 CITY9 FL5 FL4
+        9: BOARD PERSON6 PLANE3 CITY6
+       10: BOARD PERSON10 PLANE3 CITY16
+       11: BOARD PERSON12 PLANE3 CITY6
+       12: BOARD PERSON13 PLANE5 CITY8
+       13: FLY PLANE5 CITY1 CITY3 FL1 FL0
+       14: BOARD PERSON2 PLANE5 CITY3
+       15: BOARD PERSON8 PLANE5 CITY3
+       16: FLY PLANE5 CITY1 CITY0 FL1 FL0
+       17: BOARD PERSON15 PLANE5 CITY8
+       18: BOARD PERSON17 PLANE1 CITY9
+       19: BOARD PERSON18 PLANE5 CITY0
+       20: BOARD PERSON19 PLANE5 CITY1
+       21: BOARD PERSON21 PLANE5 CITY8
+       22: BOARD PERSON22 PLANE5 CITY15
+       23: FLY PLANE5 CITY1 CITY4 FL1 FL0
+       24: BOARD PERSON23 PLANE5 CITY4
+       25: FLY PLANE5 CITY1 CITY12 FL1 FL0
+       26: BOARD PERSON20 PLANE5 CITY12
+       27: FLY PLANE5 CITY1 CITY14 FL1 FL0
+       28: BOARD PERSON24 PLANE3 CITY6
+       29: FLY PLANE5 CITY1 CITY17 FL1 FL0
+       30: FLY PLANE3 CITY16 CITY17 FL5 FL4
+       31: BOARD PERSON25 PLANE5 CITY17
+       32: FLY PLANE5 CITY1 CITY2 FL1 FL0
+       33: BOARD PERSON11 PLANE5 CITY2
+       34: FLY PLANE5 CITY1 CITY13 FL1 FL0
+       35: BOARD PERSON5 PLANE5 CITY13
+       36: BOARD PERSON9 PLANE5 CITY13
+       37: FLY PLANE3 CITY16 CITY13 FL5 FL4
+       38: FLY PLANE1 CITY0 CITY11 FL1 FL0
+       39: FLY PLANE2 CITY1 CITY8 FL1 FL0
+       40: DEBARK PERSON1 PLANE4 CITY10
+       41: DEBARK PERSON2 PLANE5 CITY1
+       42: DEBARK PERSON3 PLANE3 CITY13
+       43: DEBARK PERSON4 PLANE3 CITY9
+       44: DEBARK PERSON5 PLANE5 CITY0
+       45: DEBARK PERSON6 PLANE3 CITY16
+       46: DEBARK PERSON8 PLANE5 CITY0
+       47: DEBARK PERSON9 PLANE5 CITY17
+       48: DEBARK PERSON10 PLANE3 CITY13
+       49: DEBARK PERSON11 PLANE5 CITY13
+       50: DEBARK PERSON12 PLANE3 CITY17
+       51: DEBARK PERSON13 PLANE5 CITY3
+       52: DEBARK PERSON15 PLANE5 CITY13
+       53: DEBARK PERSON17 PLANE1 CITY0
+       54: DEBARK PERSON18 PLANE5 CITY4
+       55: DEBARK PERSON19 PLANE5 CITY17
+       56: DEBARK PERSON20 PLANE5 CITY14
+       57: DEBARK PERSON21 PLANE5 CITY17
+       58: DEBARK PERSON22 PLANE5 CITY4
+       59: DEBARK PERSON23 PLANE5 CITY12
+       60: DEBARK PERSON24 PLANE3 CITY13
+       61: DEBARK PERSON25 PLANE5 CITY2
+     
+
+time spent:    0.00 seconds instantiating 27600 easy, 0 hard action templates
+               0.00 seconds reachability analysis, yielding 760 facts and 27600 actions
+               0.00 seconds creating final representation with 725 relevant facts
+               0.00 seconds building connectivity graph
+               0.10 seconds searching, evaluating 145 states, to a max depth of 1
+               0.10 seconds total time
+

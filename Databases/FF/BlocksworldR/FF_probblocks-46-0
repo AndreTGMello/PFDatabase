@@ -1,0 +1,205 @@
+
+ff: parsing domain file
+domain 'BLOCKS' defined
+ ... done.
+ff: parsing problem file
+problem 'BLOCKS-46-0' defined
+ ... done.
+
+
+
+Cueing down from goal distance:   91 into depth [1]
+                                  90            [1]
+                                  89            [1]
+                                  88            [1]
+                                  87            [1]
+                                  86            [1]
+                                  85            [1]
+                                  84            [1]
+                                  83            [1]
+                                  82            [1]
+                                  81            [1]
+                                  80            [1]
+                                  79            [1]
+                                  78            [1]
+                                  77            [1]
+                                  76            [1]
+                                  75            [1]
+                                  74            [1]
+                                  73            [1]
+                                  72            [1]
+                                  71            [1]
+                                  70            [1]
+                                  69            [1]
+                                  68            [1]
+                                  67            [1]
+                                  66            [1]
+                                  65            [1]
+                                  64            [1]
+                                  63            [1]
+                                  62            [1]
+                                  61            [1]
+                                  60            [1]
+                                  59            [1]
+                                  58            [1]
+                                  57            [1]
+                                  56            [1]
+                                  55            [1]
+                                  54            [1]
+                                  53            [1]
+                                  52            [1]
+                                  51            [1]
+                                  50            [1]
+                                  49            [1]
+                                  48            [1]
+                                  47            [1]
+                                  46            [1]
+                                  45            [1]
+                                  44            [1]
+                                  43            [1]
+                                  42            [1]
+                                  41            [1]
+                                  40            [1]
+                                  39            [1]
+                                  38            [1]
+                                  37            [1]
+                                  36            [1]
+                                  35            [1]
+                                  34            [1]
+                                  33            [1]
+                                  32            [1]
+                                  31            [1]
+                                  30            [1]
+                                  29            [1]
+                                  28            [1]
+                                  27            [1]
+                                  26            [1]
+                                  25            [1]
+                                  24            [1]
+                                  23            [1]
+                                  22            [1]
+                                  21            [1]
+                                  20            [1]
+                                  19            [1]
+                                  18            [1]
+                                  17            [1]
+                                  16            [1]
+                                  15            [1]
+                                  14            [1]
+                                  13            [1]
+                                  12            [1]
+                                  11            [1]
+                                  10            [1]
+                                   9            [1]
+                                   8            [1]
+                                   7            [1]
+                                   6            [1]
+                                   5            [1]
+                                   4            [1]
+                                   3            [1]
+                                   2            [1]
+                                   1            [1]
+                                   0            
+
+ff: found legal plan as follows
+
+step    0: PICK-UP G
+        1: UNSTACK H I1
+        2: UNSTACK B L
+        3: PICK-UP Q1
+        4: PICK-UP O
+        5: UNSTACK L D1
+        6: UNSTACK D1 Q
+        7: UNSTACK Q X
+        8: UNSTACK X R1
+        9: UNSTACK N1 B1
+       10: UNSTACK B1 F1
+       11: PICK-UP F1
+       12: UNSTACK C1 F
+       13: UNSTACK E P1
+       14: PICK-UP P1
+       15: PICK-UP T
+       16: UNSTACK F G1
+       17: UNSTACK G1 M1
+       18: PICK-UP M1
+       19: UNSTACK R1 P
+       20: UNSTACK P M
+       21: UNSTACK M N
+       22: UNSTACK N C
+       23: UNSTACK C R
+       24: PICK-UP R
+       25: UNSTACK I1 I
+       26: PICK-UP I
+       27: UNSTACK S V
+       28: UNSTACK V S1
+       29: UNSTACK S1 L1
+       30: UNSTACK L1 K
+       31: PICK-UP K
+       32: UNSTACK W D
+       33: UNSTACK D J
+       34: UNSTACK J H1
+       35: UNSTACK H1 A
+       36: UNSTACK A J1
+       37: UNSTACK J1 E1
+       38: UNSTACK E1 Y
+       39: UNSTACK Y U
+       40: UNSTACK U Z
+       41: UNSTACK Z A1
+       42: UNSTACK A1 O1
+       43: UNSTACK O1 K1
+       44: UNSTACK K1 T1
+       45: PICK-UP T1
+       46: STACK C1 C
+       47: STACK C O
+       48: STACK O A
+       49: STACK A F
+       50: STACK F F1
+       51: STACK F1 K
+       52: STACK K N1
+       53: STACK N1 L1
+       54: STACK L1 J1
+       55: STACK J1 I
+       56: STACK I L
+       57: STACK L Y
+       58: STACK Y H1
+       59: STACK H1 M
+       60: STACK M X
+       61: STACK X S1
+       62: STACK S1 R
+       63: STACK R N
+       64: STACK N B1
+       65: STACK B1 I1
+       66: STACK I1 T1
+       67: STACK T1 D
+       68: STACK D B
+       69: STACK B H
+       70: STACK H S
+       71: STACK S D1
+       72: STACK D1 R1
+       73: STACK R1 G
+       74: STACK G W
+       75: STACK W M1
+       76: STACK M1 Q
+       77: STACK Q P1
+       78: STACK P1 T
+       79: STACK T A1
+       80: STACK A1 E1
+       81: STACK E1 E
+       82: STACK E Z
+       83: STACK Z G1
+       84: STACK G1 Q1
+       85: STACK Q1 J
+       86: STACK J K1
+       87: STACK K1 V
+       88: STACK V O1
+       89: STACK O1 P
+       90: STACK P U
+     
+
+time spent:    0.00 seconds instantiating 4324 easy, 0 hard action templates
+               0.00 seconds reachability analysis, yielding 2255 facts and 4324 actions
+               0.00 seconds creating final representation with 2197 relevant facts
+               0.00 seconds building connectivity graph
+               0.01 seconds searching, evaluating 92 states, to a max depth of 1
+               0.01 seconds total time
+

@@ -1,0 +1,77 @@
+
+ff: parsing domain file
+domain 'ROVER' defined
+ ... done.
+ff: parsing problem file
+problem 'ROVERPROB6' defined
+ ... done.
+
+
+
+Cueing down from goal distance:   27 into depth [1]
+                                  26            [1]
+                                  25            [1]
+                                  24            [1]
+                                  23            [1]
+                                  22            [1]
+                                  21            [1]
+                                  20            [1]
+                                  19            [1]
+                                  18            [1]
+                                  17            [1]
+                                  16            [1]
+                                  15            [1]
+                                  14            [1]
+                                  13            [1]
+                                  12            [1]
+                                  11            [1]
+                                  10            [1]
+                                   9            [1]
+                                   8            [1]
+                                   7            [1]
+                                   6            [1]
+                                   5            [1]
+                                   4            [1]
+                                   3            [1]
+                                   2            [1]
+                                   1            [1]
+                                   0            
+
+ff: found legal plan as follows
+
+step    0: NAVIGATE ROVER1 WAYPOINT4 WAYPOINT5
+        1: NAVIGATE ROVER0 WAYPOINT1 WAYPOINT0
+        2: NAVIGATE ROVER1 WAYPOINT4 WAYPOINT1
+        3: NAVIGATE ROVER1 WAYPOINT5 WAYPOINT2
+        4: NAVIGATE ROVER0 WAYPOINT0 WAYPOINT2
+        5: NAVIGATE ROVER0 WAYPOINT0 WAYPOINT3
+        6: CALIBRATE ROVER0 CAMERA0 OBJECTIVE0 WAYPOINT3
+        7: SAMPLE_SOIL ROVER1 ROVER1STORE WAYPOINT5
+        8: SAMPLE_SOIL ROVER1 ROVER1STORE WAYPOINT1
+        9: SAMPLE_SOIL ROVER1 ROVER1STORE WAYPOINT4
+       10: SAMPLE_SOIL ROVER1 ROVER1STORE WAYPOINT2
+       11: SAMPLE_ROCK ROVER0 ROVER0STORE WAYPOINT0
+       12: SAMPLE_ROCK ROVER0 ROVER0STORE WAYPOINT2
+       13: SAMPLE_ROCK ROVER0 ROVER0STORE WAYPOINT3
+       14: TAKE_IMAGE ROVER0 WAYPOINT3 OBJECTIVE0 CAMERA0 COLOUR
+       15: TAKE_IMAGE ROVER0 WAYPOINT1 OBJECTIVE1 CAMERA0 LOW_RES
+       16: TAKE_IMAGE ROVER0 WAYPOINT3 OBJECTIVE0 CAMERA0 LOW_RES
+       17: COMMUNICATE_SOIL_DATA ROVER1 GENERAL WAYPOINT5 WAYPOINT4 WAYPOINT3
+       18: COMMUNICATE_SOIL_DATA ROVER1 GENERAL WAYPOINT1 WAYPOINT4 WAYPOINT3
+       19: COMMUNICATE_SOIL_DATA ROVER1 GENERAL WAYPOINT4 WAYPOINT4 WAYPOINT3
+       20: COMMUNICATE_SOIL_DATA ROVER1 GENERAL WAYPOINT2 WAYPOINT4 WAYPOINT3
+       21: COMMUNICATE_ROCK_DATA ROVER0 GENERAL WAYPOINT0 WAYPOINT1 WAYPOINT3
+       22: COMMUNICATE_ROCK_DATA ROVER0 GENERAL WAYPOINT2 WAYPOINT1 WAYPOINT3
+       23: COMMUNICATE_ROCK_DATA ROVER0 GENERAL WAYPOINT3 WAYPOINT1 WAYPOINT3
+       24: COMMUNICATE_IMAGE_DATA ROVER0 GENERAL OBJECTIVE0 COLOUR WAYPOINT1 WAYPOINT3
+       25: COMMUNICATE_IMAGE_DATA ROVER0 GENERAL OBJECTIVE1 LOW_RES WAYPOINT1 WAYPOINT3
+       26: COMMUNICATE_IMAGE_DATA ROVER0 GENERAL OBJECTIVE0 LOW_RES WAYPOINT1 WAYPOINT3
+     
+
+time spent:    0.00 seconds instantiating 273 easy, 0 hard action templates
+               0.00 seconds reachability analysis, yielding 54 facts and 178 actions
+               0.00 seconds creating final representation with 47 relevant facts
+               0.00 seconds building connectivity graph
+               0.00 seconds searching, evaluating 30 states, to a max depth of 1
+               0.00 seconds total time
+
