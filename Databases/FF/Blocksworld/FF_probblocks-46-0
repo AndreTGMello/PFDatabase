@@ -3,3 +3,361 @@ ff: parsing domain file
 domain 'BLOCKS' defined
  ... done.
 ff: parsing problem file
+problem 'BLOCKS-46-0' defined
+ ... done.
+
+
+
+Cueing down from goal distance:   16 into depth [1][2]
+                                  15            [1][2]
+                                  14            [1][2]
+                                  13            [1][2]
+                                  12            [1][2]
+                                  11            [1][2]
+                                  10            [1][2]
+                                   9            [1][2]
+                                   8            [1][2]
+                                   7            [1][2]
+                                   6            [1][2]
+                                   5            [1][2]
+                                   4            [1][2]
+                                   3            [1][2]
+                                   2            [1]
+                                   1            [1]
+                                   0            
+
+Cueing down from goal distance:    6 into depth [1][2][3][4][5]
+                                   5            [1]
+                                   4            [1][2]
+                                   3            [1][2]
+                                   2            [1]
+                                   1            [1]
+                                   0            
+
+Cueing down from goal distance:    3 into depth [1][2]
+                                   2            [1]
+                                   1            [1]
+                                   0            
+
+Cueing down from goal distance:    2 into depth [1]
+                                   1            [1]
+                                   0            
+
+Cueing down from goal distance:    2 into depth [1]
+                                   1            [1]
+                                   0            
+
+Cueing down from goal distance:    2 into depth [1]
+                                   1            [1]
+                                   0            
+
+Cueing down from goal distance:    4 into depth [1][2]
+                                   3            [1][2]
+                                   2            [1]
+                                   1            [1]
+                                   0            
+
+Cueing down from goal distance:    2 into depth [1]
+                                   1            [1]
+                                   0            
+
+Cueing down from goal distance:    2 into depth [1]
+                                   1            [1]
+                                   0            
+
+Cueing down from goal distance:    2 into depth [1]
+                                   1            [1]
+                                   0            
+
+Cueing down from goal distance:    2 into depth [1]
+                                   1            [1]
+                                   0            
+
+Cueing down from goal distance:    2 into depth [1]
+                                   1            [1]
+                                   0            
+
+Cueing down from goal distance:    2 into depth [1]
+                                   1            [1]
+                                   0            
+
+Cueing down from goal distance:    2 into depth [1]
+                                   1            [1]
+                                   0            
+
+Cueing down from goal distance:    2 into depth [1]
+                                   1            [1]
+                                   0            
+
+Cueing down from goal distance:    2 into depth [1]
+                                   1            [1]
+                                   0            
+
+Cueing down from goal distance:    2 into depth [1]
+                                   1            [1]
+                                   0            
+
+Cueing down from goal distance:    2 into depth [1]
+                                   1            [1]
+                                   0            
+
+Cueing down from goal distance:    2 into depth [1]
+                                   1            [1]
+                                   0            
+
+Cueing down from goal distance:    2 into depth [1]
+                                   1            [1]
+                                   0            
+
+Cueing down from goal distance:    2 into depth [1]
+                                   1            [1]
+                                   0            
+
+Cueing down from goal distance:    2 into depth [1]
+                                   1            [1]
+                                   0            
+
+Cueing down from goal distance:    2 into depth [1]
+                                   1            [1]
+                                   0            
+
+Cueing down from goal distance:    2 into depth [1]
+                                   1            [1]
+                                   0            
+
+Cueing down from goal distance:    2 into depth [1]
+                                   1            [1]
+                                   0            
+
+Cueing down from goal distance:    3 into depth [1][2]
+                                   2            [1]
+                                   1            [1]
+                                   0            
+
+Cueing down from goal distance:    3 into depth [1][2]
+                                   2            [1]
+                                   1            [1]
+                                   0            
+
+Cueing down from goal distance:    3 into depth [1][2]
+                                   2            [1]
+                                   1            [1]
+                                   0            
+
+Cueing down from goal distance:    2 into depth [1]
+                                   1            [1]
+                                   0            
+
+Cueing down from goal distance:    2 into depth [1]
+                                   1            [1]
+                                   0            
+
+Cueing down from goal distance:    2 into depth [1]
+                                   1            [1]
+                                   0            
+
+Cueing down from goal distance:    2 into depth [1]
+                                   1            [1]
+                                   0            
+
+Cueing down from goal distance:    2 into depth [1]
+                                   1            [1]
+                                   0            
+
+Cueing down from goal distance:    2 into depth [1]
+                                   1            [1]
+                                   0            
+
+Cueing down from goal distance:    2 into depth [1]
+                                   1            [1]
+                                   0            
+
+Cueing down from goal distance:    2 into depth [1]
+                                   1            [1]
+                                   0            
+
+Cueing down from goal distance:    2 into depth [1]
+                                   1            [1]
+                                   0            
+
+Cueing down from goal distance:    2 into depth [1]
+                                   1            [1]
+                                   0            
+
+Cueing down from goal distance:    2 into depth [1]
+                                   1            [1]
+                                   0            
+
+Cueing down from goal distance:    2 into depth [1]
+                                   1            [1]
+                                   0            
+
+Cueing down from goal distance:    2 into depth [1]
+                                   1            [1]
+                                   0            
+
+Cueing down from goal distance:    2 into depth [1]
+                                   1            [1]
+                                   0            
+
+Cueing down from goal distance:    2 into depth [1]
+                                   1            [1]
+                                   0            
+
+Cueing down from goal distance:    2 into depth [1]
+                                   1            [1]
+                                   0            
+
+Cueing down from goal distance:    2 into depth [1]
+                                   1            [1]
+                                   0            
+
+ff: found legal plan as follows
+
+step    0: UNSTACK W D
+        1: PUT-DOWN W
+        2: UNSTACK B L
+        3: PUT-DOWN B
+        4: UNSTACK D J
+        5: PUT-DOWN D
+        6: UNSTACK L D1
+        7: PUT-DOWN L
+        8: UNSTACK J H1
+        9: PUT-DOWN J
+       10: UNSTACK D1 Q
+       11: PUT-DOWN D1
+       12: UNSTACK H1 A
+       13: PUT-DOWN H1
+       14: UNSTACK Q X
+       15: PUT-DOWN Q
+       16: UNSTACK A J1
+       17: PUT-DOWN A
+       18: UNSTACK X R1
+       19: PUT-DOWN X
+       20: UNSTACK J1 E1
+       21: PUT-DOWN J1
+       22: UNSTACK R1 P
+       23: PUT-DOWN R1
+       24: UNSTACK E1 Y
+       25: PUT-DOWN E1
+       26: UNSTACK Y U
+       27: PUT-DOWN Y
+       28: UNSTACK P M
+       29: PUT-DOWN P
+       30: UNSTACK U Z
+       31: PUT-DOWN U
+       32: PICK-UP P
+       33: STACK P U
+       34: UNSTACK Z A1
+       35: PUT-DOWN Z
+       36: UNSTACK A1 O1
+       37: PUT-DOWN A1
+       38: UNSTACK O1 K1
+       39: STACK O1 P
+       40: UNSTACK S V
+       41: PUT-DOWN S
+       42: UNSTACK V S1
+       43: STACK V O1
+       44: UNSTACK K1 T1
+       45: STACK K1 V
+       46: PICK-UP J
+       47: STACK J K1
+       48: PICK-UP Q1
+       49: STACK Q1 J
+       50: UNSTACK C1 F
+       51: PUT-DOWN C1
+       52: UNSTACK F G1
+       53: PUT-DOWN F
+       54: UNSTACK G1 M1
+       55: STACK G1 Q1
+       56: PICK-UP Z
+       57: STACK Z G1
+       58: UNSTACK E P1
+       59: STACK E Z
+       60: PICK-UP E1
+       61: STACK E1 E
+       62: PICK-UP A1
+       63: STACK A1 E1
+       64: PICK-UP T
+       65: STACK T A1
+       66: PICK-UP P1
+       67: STACK P1 T
+       68: PICK-UP Q
+       69: STACK Q P1
+       70: PICK-UP M1
+       71: STACK M1 Q
+       72: PICK-UP W
+       73: STACK W M1
+       74: PICK-UP G
+       75: STACK G W
+       76: PICK-UP R1
+       77: STACK R1 G
+       78: PICK-UP D1
+       79: STACK D1 R1
+       80: PICK-UP S
+       81: STACK S D1
+       82: UNSTACK H I1
+       83: STACK H S
+       84: PICK-UP B
+       85: STACK B H
+       86: PICK-UP D
+       87: STACK D B
+       88: PICK-UP T1
+       89: STACK T1 D
+       90: UNSTACK I1 I
+       91: STACK I1 T1
+       92: UNSTACK N1 B1
+       93: PUT-DOWN N1
+       94: UNSTACK B1 F1
+       95: STACK B1 I1
+       96: UNSTACK M N
+       97: PUT-DOWN M
+       98: UNSTACK N C
+       99: STACK N B1
+      100: UNSTACK C R
+      101: PUT-DOWN C
+      102: PICK-UP R
+      103: STACK R N
+      104: UNSTACK S1 L1
+      105: STACK S1 R
+      106: PICK-UP X
+      107: STACK X S1
+      108: PICK-UP M
+      109: STACK M X
+      110: PICK-UP H1
+      111: STACK H1 M
+      112: PICK-UP Y
+      113: STACK Y H1
+      114: PICK-UP L
+      115: STACK L Y
+      116: PICK-UP I
+      117: STACK I L
+      118: PICK-UP J1
+      119: STACK J1 I
+      120: UNSTACK L1 K
+      121: STACK L1 J1
+      122: PICK-UP N1
+      123: STACK N1 L1
+      124: PICK-UP K
+      125: STACK K N1
+      126: PICK-UP F1
+      127: STACK F1 K
+      128: PICK-UP F
+      129: STACK F F1
+      130: PICK-UP A
+      131: STACK A F
+      132: PICK-UP O
+      133: STACK O A
+      134: PICK-UP C
+      135: STACK C O
+      136: PICK-UP C1
+      137: STACK C1 C
+     
+
+time spent:    0.00 seconds instantiating 4324 easy, 0 hard action templates
+               0.00 seconds reachability analysis, yielding 2255 facts and 4324 actions
+               0.00 seconds creating final representation with 2255 relevant facts
+               0.00 seconds building connectivity graph
+               0.16 seconds searching, evaluating 923 states, to a max depth of 5
+               0.16 seconds total time
+

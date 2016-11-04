@@ -155,9 +155,9 @@ step    0: FLY PLANE5 CITY9 CITY14 FL4 FL3
      
 
 time spent:    0.00 seconds instantiating 32780 easy, 0 hard action templates
-               0.00 seconds reachability analysis, yielding 820 facts and 32780 actions
-               0.00 seconds creating final representation with 785 relevant facts
+               0.01 seconds reachability analysis, yielding 820 facts and 32780 actions
+               0.01 seconds creating final representation with 785 relevant facts
                0.01 seconds building connectivity graph
-               0.21 seconds searching, evaluating 221 states, to a max depth of 1
-               0.22 seconds total time
+               0.26 seconds searching, evaluating 221 states, to a max depth of 1
+               0.29 seconds total time
 

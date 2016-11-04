@@ -215,7 +215,7 @@ step    0: UNSTACK H1 M1
 time spent:    0.00 seconds instantiating 5100 easy, 0 hard action templates
                0.00 seconds reachability analysis, yielding 2651 facts and 5100 actions
                0.00 seconds creating final representation with 2594 relevant facts
-               0.01 seconds building connectivity graph
-               0.02 seconds searching, evaluating 100 states, to a max depth of 1
-               0.03 seconds total time
+               0.00 seconds building connectivity graph
+               0.05 seconds searching, evaluating 100 states, to a max depth of 1
+               0.05 seconds total time
 

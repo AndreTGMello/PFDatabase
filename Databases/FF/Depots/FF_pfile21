@@ -81,9 +81,9 @@ step    0: DRIVE TRUCK0 DISTRIBUTOR2 DEPOT0
      
 
 time spent:    0.00 seconds instantiating 130464 easy, 0 hard action templates
-               0.01 seconds reachability analysis, yielding 782 facts and 8934 actions
+               0.03 seconds reachability analysis, yielding 782 facts and 8934 actions
                0.01 seconds creating final representation with 747 relevant facts
                0.00 seconds building connectivity graph
-               0.02 seconds searching, evaluating 103 states, to a max depth of 1
-               0.04 seconds total time
+               0.04 seconds searching, evaluating 103 states, to a max depth of 1
+               0.08 seconds total time
 

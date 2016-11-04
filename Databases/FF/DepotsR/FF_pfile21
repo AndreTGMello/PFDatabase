@@ -80,10 +80,10 @@ step    0: LIFT HOIST1 CRATE0 PALLET16 DEPOT1
        32: DROP HOIST1 CRATE8 PALLET15 DEPOT1
      
 
-time spent:    0.00 seconds instantiating 130464 easy, 0 hard action templates
-               0.02 seconds reachability analysis, yielding 782 facts and 8934 actions
-               0.00 seconds creating final representation with 686 relevant facts
+time spent:    0.01 seconds instantiating 130464 easy, 0 hard action templates
+               0.03 seconds reachability analysis, yielding 782 facts and 8934 actions
+               0.01 seconds creating final representation with 686 relevant facts
                0.00 seconds building connectivity graph
-               0.00 seconds searching, evaluating 34 states, to a max depth of 1
-               0.02 seconds total time
+               0.02 seconds searching, evaluating 34 states, to a max depth of 1
+               0.07 seconds total time
 

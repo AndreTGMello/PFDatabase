@@ -176,10 +176,10 @@ step    0: DRIVE TRUCK0 DEPOT2 DISTRIBUTOR5
        80: DROP HOIST9 CRATE19 PALLET9 DISTRIBUTOR3
      
 
-time spent:    0.01 seconds instantiating 332064 easy, 0 hard action templates
-               0.03 seconds reachability analysis, yielding 1622 facts and 22924 actions
-               0.00 seconds creating final representation with 1506 relevant facts
+time spent:    0.03 seconds instantiating 332064 easy, 0 hard action templates
+               0.07 seconds reachability analysis, yielding 1622 facts and 22924 actions
+               0.01 seconds creating final representation with 1506 relevant facts
                0.01 seconds building connectivity graph
-               0.18 seconds searching, evaluating 192 states, to a max depth of 1
-               0.23 seconds total time
+               0.24 seconds searching, evaluating 192 states, to a max depth of 1
+               0.36 seconds total time
 

@@ -130,6 +130,6 @@ time spent:    0.00 seconds instantiating 2718 easy, 0 hard action templates
                0.00 seconds reachability analysis, yielding 238 facts and 858 actions
                0.00 seconds creating final representation with 232 relevant facts
                0.00 seconds building connectivity graph
-               6.53 seconds searching, evaluating 153553 states, to a max depth of 11
-               6.53 seconds total time
+               6.59 seconds searching, evaluating 153553 states, to a max depth of 11
+               6.59 seconds total time
 
